@@ -273,6 +273,7 @@ background-color: #647B64;
 .hero-box-3-card1-content, .hero-box-3-card2-content, .hero-box-3-card3-content {
   font-size: 16px;
   margin-left: 50px;
+  margin-right: 50px;
   margin-top: 6px;
 }
 
@@ -302,7 +303,7 @@ background-color: #647B64;
 
 .hero-box-4-link {
   color:#F3B562;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-family);
   text-transform: uppercase;
   font-size: 24px;
   padding-top: 40px;
@@ -337,4 +338,49 @@ background-color: #647B64;
   width: 412px;
   height: 316px;
   margin-top: 200px;
+}
+
+.hero-box-5-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-box-5-top-left-side {
+  width: 540px;
+  height: 95px;
+  margin-left: 140px;
+}
+.hero-box-5-top-left-side-link {
+  color:#F3B562;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-top: 40px;
+}
+.hero-box-5-top-left-side-title {
+  color: #647B64;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 38px;
+  line-height: 45.1px;
+  font-weight: 500;
+  margin-top: 17px;
+}
+
+.hero-box-5-top-right-side {
+  display: flex;
+  gap: 24px;
+}
+.button-left-arrow {
+  background: transparent;
+  border: none;
+}
+.button-right-arrow {
+  background: linear-gradient(102.3deg, #647B64 -4.62%, #6ADD6A 178.22%);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 12px 40px 0px #0000000F;
+  width: 75px;
+  height: 75px;
 }
