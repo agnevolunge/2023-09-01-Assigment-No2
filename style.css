@@ -14,9 +14,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-.hero-box-2-title-wrapper {
-    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
-}
+
 .button {
     text-transform: uppercase;
     font-size: 16px;
@@ -51,7 +49,7 @@ body {
   }
   
   .main-header {
-    background-color: white;
+    background-color: transparent;
   }
   .main-header .main-header-wrapper {
     display: flex;
@@ -145,7 +143,7 @@ body {
  .hero-box-2-left-side {
     width: 412px;
  } 
-
+ 
 .hero-box-2-link {
     color:#F3B562;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -153,7 +151,9 @@ body {
     font-size: 24px;
     padding-top: 40px;
 }
-
+.hero-box-2-title-wrapper {
+  background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+}
 .hero-box-2-title {
     color: #647B64;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -384,3 +384,4 @@ background-color: #647B64;
   width: 75px;
   height: 75px;
 }
+
