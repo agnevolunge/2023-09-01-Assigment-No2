@@ -18,7 +18,7 @@ body {
 .button {
     text-transform: uppercase;
     font-size: 16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
     padding: 10px 15px;
     border-radius: 3px;
     cursor: pointer;
@@ -79,7 +79,7 @@ body {
     justify-content: flex-end;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
   }
   .main-header .main-header-wrapper .main-navigation ul.menu-list li.menu-item a.menu-link {
     text-decoration: none;
@@ -106,7 +106,7 @@ body {
   .hero-box-title {
     font-size: 48px;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
     color: #333333;
     text-transform:uppercase;
     margin: 0;
@@ -114,7 +114,7 @@ body {
 
   .hero-box-content {
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
     color:#4F4F4F;
     line-height: 26.4px;
     font-weight: 400;
@@ -130,10 +130,10 @@ body {
   }
 
   .hero-box-right-side {
-    width: 350px;
+    width: 342.99786376953125px;
+    height: 585.906005859375px; 
     display: flex;
-    margin-bottom: 141px;
-    margin-top: 61px;
+    align-items: center; 
   }
 
   .hero-box-2-wrapper {
@@ -146,7 +146,7 @@ body {
  
 .hero-box-2-link {
     color:#F3B562;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
     text-transform: uppercase;
     font-size: 24px;
     padding-top: 40px;
@@ -156,7 +156,7 @@ body {
 }
 .hero-box-2-title {
     color: #647B64;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
     text-transform: uppercase;
     font-size: 41px;
     line-height: 45.1px;
@@ -167,7 +167,7 @@ body {
     color: #4F4F4F;
     font-size: 16px;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
 }
 .hero-box-2-wrapper a.button.button-primary.button-fill  {
     width: 350px;
@@ -183,15 +183,41 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 .card1-wrapper {
 background-color: #FFFFFF;
 width: 288px;
 height: 237px;
+
 }
 .card1-img {
 background-color: #647B64;
+margin-top: 50px;
+margin-left: 50px;
+width: 48px;
+height: 48px;
+border-radius: 8px;
+}
+
+.card1-title {
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27.84px;
+  margin-top: 16px;
+  margin-left: 50px;
+}
+
+.card1-content {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17.16px;
+  margin-left: 50px;
+  margin-top: 6px;
+  margin-bottom: 45px;
 }
 .card2-wrapper, .card4-wrapper {
   width: 221px;
@@ -203,7 +229,7 @@ background-color: #647B64;
 }
 .hero-box-3-title-link {
   color:#F3B562;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-family);
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 500;
@@ -215,7 +241,7 @@ background-color: #647B64;
   color: #647B64;
   font-family: var(--font-family);
   text-transform: uppercase;
-  font-size: 41px;
+  font-size: 37px;
   line-height: 45.1px;
   align: center;
   font-weight: 500;
@@ -313,7 +339,7 @@ background-color: #647B64;
   color: #647B64;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
-  font-size: 41px;
+  font-size: 37px;
   line-height: 45.1px;
   align: center;
   font-weight: 400;
